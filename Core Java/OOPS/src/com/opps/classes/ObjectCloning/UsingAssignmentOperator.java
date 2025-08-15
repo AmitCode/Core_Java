@@ -1,6 +1,5 @@
 package com.opps.classes.ObjectCloning;
 
-import org.bouncycastle.util.test.Test;
 
 //Unlike c++ we can't create a clone of object in java.
 //In java if we do this it will return reference of it.

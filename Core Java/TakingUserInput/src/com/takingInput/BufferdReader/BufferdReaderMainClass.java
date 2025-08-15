@@ -15,8 +15,11 @@ public class BufferdReaderMainClass{
         String str = reader.readLine();
         //Reads single of character.
         char chr = (char)reader.read();
+
+        int data = Integer.parseInt(reader.readLine());
         System.out.println("You have entered " + str + " string");
         System.out.println("You have entered " + chr + " char");
+        System.out.println("You have entered " + data + " Integer");
 
         //Way2.Scanner Class
 

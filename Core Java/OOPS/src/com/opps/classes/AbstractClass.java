@@ -68,7 +68,7 @@ abstract class WithoutAnyAbstractMethod{
     }
 }
 
-// Outter classs and Inner Class both can be abstract
+// Outer class and Inner Class both can be abstract
 abstract class AbstractClassWithInnerAbstractClass{
     abstract class childClassAsAbstract{
 
