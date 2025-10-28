@@ -11,7 +11,8 @@ public class InstanceMethods {
     public void display(){
         System.out.println("This is a instance method!...");
     }
-    public static void main(String[] agrs){
+
+    public static void main(String[] args){
         System.out.println("InstanceMethods!...");
         InstanceMethods instanceMethods = new InstanceMethods();
         instanceMethods.display();

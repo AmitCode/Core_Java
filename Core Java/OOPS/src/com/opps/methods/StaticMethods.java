@@ -37,6 +37,7 @@ class SubClass extends StaticMethods{
 //        System.out.println("This is a Static Method!...");
 //    }
     //This is MethodHiding
+
         public static void display(){
         System.out.println("This is a Static Method!...");
     }
