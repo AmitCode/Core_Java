@@ -12,14 +12,16 @@ Rules to create an immutable class.
 1.Create class as final because:-
     -->This will prevent from inheritance because a final class can't have a subclass.
     --> Final assigned only once.
-2.Make variable/fields/data members as private.
+2.Make variable/fields/data members as private final.
+    -->Because private field can't be accessed outside of class.
+    -->If filed are final they can't be reassigned using other methods or reflection apis.
 3.Do not create any setter methods.
 4.Initialized the field with constructor only.
 */
 public final class ImmutableClass {
-    private int id;
-    private String dataSourceName;
-    private String url;
+    private final int id;
+    private final String dataSourceName;
+    private final String url;
     //Until here it is immutable.
     private List<String> connections;
 
