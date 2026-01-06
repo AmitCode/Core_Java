@@ -1,4 +1,4 @@
-package com.collections.list;
+package com.collections.list.ListImplementations.ArrayList;
 
 import java.util.ArrayList;
 
@@ -41,8 +41,5 @@ public class ArrayListCollection {
 
         //Get
         System.out.println("Element at index 1 : " + nums3.get(2));
-
-
-        //Array List Traversal
     }
 }
