@@ -20,6 +20,7 @@ class BaseClassDemo extends JavaInheritanceDemo{
     public BaseClassDemo(String name1, String name2){
 
         super(name1);//super() method must be the first statement of the subclass constructor.
+        //If we are not writing anything here the by default java will call super class constructor.
 
         System.out.println("Calling base class constructor!...");
         this.myNewName = name2;
